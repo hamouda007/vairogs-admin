@@ -1,0 +1,34 @@
+{
+    "name": "vairogs/vairogs-admin",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Yet Another Symfony 4 Admin Bundle",
+    "authors": [
+        {
+            "name": "k0d3r1s",
+            "homepage": "https://github.com/k0d3r1s",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vairogs\\Admin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vairogs\\Admin\\Tests\\": "tests/"
+        }
+    }
+}
